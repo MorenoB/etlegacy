@@ -3949,7 +3949,7 @@ void R_RotateEntityForLight(const trRefEntity_t *ent, const trRefLight_t *light,
 void R_RotateLightForViewParms(const trRefLight_t *ent, const viewParms_t *viewParms, orientationr_t *orientation);
 
 void R_SetupFrustum2(frustum_t frustum, const mat4_t mvp);
-
+void R_SetupFrustum(void);
 qboolean R_CompareVert(srfVert_t *v1, srfVert_t *v2, qboolean checkST);
 void R_CalcNormalForTriangle(vec3_t normal, const vec3_t v0, const vec3_t v1, const vec3_t v2);
 
